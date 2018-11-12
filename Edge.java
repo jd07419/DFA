@@ -6,7 +6,6 @@ public class Edge {
 	Vertex startV;
 	Vertex endV;
 	
-	// Creates the Edge
 	Edge(char input, Vertex startV, Vertex endV){
 		this.input = input;
 		this.startV = startV;

@@ -13,6 +13,7 @@ public class Vertex {
 		edgeList.add(e);
 	}
 	
+	// Returns the Edge for the corresponding input
 	public Edge getEdge(char input) {
 		Edge hold = null;
 		for (int i = 0; i < edgeList.size(); i++) {
